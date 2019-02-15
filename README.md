@@ -3,9 +3,7 @@ Ubuntu 16.04: gallery-web-generator  node.js project with photo pre-processing b
 When I develope this project , I use n to install node with version v10.13.0 
 
 
-
 # development note
-
 ## node version
 v 10.13.0  
 ## pre-install package
@@ -16,18 +14,15 @@ $ npm install --save epg-prep
 $ npm install --save express  
 $ npm install --save express-photo-gallery
 
-
-
-# preprocess fot photos from ./raw_photos to ./photos
-./rename_process.sh raw_photos photos
-./identify_process.sh photos
+## preprocess fot photos from ./raw_photos to ./photos
+$ ./rename_process.sh raw_photos photos
+$ ./identify_process.sh photos
  
+## make preview
+$ ./node_modules/.bin/epg-prep ./photos  
 
-# make preview
-TODO   
-
-# execute web
-node ./app.js    
+## execute web
+$ node ./app.js    
 
 
 
