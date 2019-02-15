@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/milochen0418/gallery-web-generator/issues"
   },
-  "homepage": "https://github.com/milochen0418/gallery-web-generator#readme"
+  "homepage": "https://github.com/milochen0418/gallery-web-generator#readme",
+  "dependencies": {
+    "epg-prep": "0.0.4",
+    "express": "^4.16.4",
+    "express-photo-gallery": "^1.0.9"
+  }
 }
