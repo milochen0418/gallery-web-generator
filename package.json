@@ -1,0 +1,26 @@
+{
+  "name": "gallery-web-generator",
+  "version": "1.0.0",
+  "description": "gallery-web-generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milochen0418/gallery-web-generator.git"
+  },
+  "keywords": [
+    "gallery",
+    "web",
+    "generator",
+    "http-server",
+    "gallery-http-server"
+  ],
+  "author": "Milo Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milochen0418/gallery-web-generator/issues"
+  },
+  "homepage": "https://github.com/milochen0418/gallery-web-generator#readme"
+}
