@@ -19,7 +19,9 @@ $ npm install --save express-photo-gallery
 
 
 # preprocess fot photos from ./raw_photos to ./photos
-TODO   
+./rename_process.sh raw_photos photos
+./identify_process.sh photos
+ 
 
 # make preview
 TODO   
