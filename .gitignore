@@ -1,5 +1,7 @@
 node_modules
 package-lock.json
 raw_photos.orig
+raw_photos
+photos
 photos.orig
 copy
