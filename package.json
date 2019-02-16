@@ -26,6 +26,7 @@
   "dependencies": {
     "epg-prep": "0.0.4",
     "express": "^4.16.4",
-    "express-photo-gallery": "^1.0.9"
+    "express-photo-gallery": "^1.0.9",
+    "minimist": "^1.2.0"
   }
 }
