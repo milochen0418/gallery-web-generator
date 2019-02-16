@@ -22,6 +22,6 @@ cp -rf $SRC_DIR ./raw_photos
 ./rename_process.sh raw_photos photos
 ./identify_process.sh photos
 # make preview
-$ ./node_modules/.bin/epg-prep ./photos
+./node_modules/.bin/epg-prep ./photos
 
 node ./app.js
