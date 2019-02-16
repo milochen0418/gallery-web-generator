@@ -1,11 +1,20 @@
 # gallery-web-generator
 Ubuntu 16.04: gallery-web-generator  node.js project with photo pre-processing by shell.  
-When I develope this project , I use n to install node with version v10.13.0 
+When I develope this project , I use n to install node with version v10.13.0  
 
 # Easy Usage
+
+## Already run before.
+If you have already run ./gallery_procedure.sh, or you have copy some successful galleries set into ./photos of this project  
+Then you can just use the following command and open browser with http://yourhost:2266/ after input the following command  
+$ node ./app.js --port=2266 --subdir=ALL  
+If there is 校花 sub-dir in ./photos, then you can oepn http://yourhost:2266/ to see 校花 gallery after input the following command  
+$ node ./app.js --port=2266 --subdir=校花  
+   
+## First time to run.
 If you first time to clone this source code. and you go to the project folder.    
 in this folder you can see ./package.json and all of script in the projects.   
-You do the follow command and see follwoing result : 
+You do the follow command and see follwoing result :  
 $ tree -d ../downloads  
 ../downloads  
 ├── 可愛妹子  
