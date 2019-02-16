@@ -9,9 +9,12 @@ if [ $# -eq 2 ]; then
 fi
 
 
+#basic install packages for this procedure on ubuntu
 apt-get install imagemagick  
 apt-get install graphicsmagick  
 apt-get install graphicsmagick-imagemagick-compat
+apt-get install tree
+
 npm install
 
 
