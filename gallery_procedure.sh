@@ -12,16 +12,10 @@ fi
 apt-get install imagemagick  
 apt-get install graphicsmagick  
 apt-get install graphicsmagick-imagemagick-compat
-
 npm install
-rm -rf ./raw_photos
-rm -rf 
 
-cp -rf $SRC_DIR ./raw_photos
 
-./rename_process.sh raw_photos photos
-./identify_process.sh photos
-# make preview
-./node_modules/.bin/epg-prep ./photos
+./create_a_gallery.sh $SRC_DIR ./photos
+
 
 node ./app.js
