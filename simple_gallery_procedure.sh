@@ -8,10 +8,8 @@ if [ $# -eq 2 ]; then
 	PORT_NUM=$2
 fi
 
-
 sudo ./deb_package_install.sh
 npm install
-
 ./create_a_gallery.sh $SRC_DIR ./photos
 
 node ./app.js --port=$PORT_NUM --subdir=$SUB_DIR
