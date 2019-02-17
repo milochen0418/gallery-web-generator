@@ -18,10 +18,7 @@ fi
 
 
 #basic install packages for this procedure on ubuntu
-apt-get install imagemagick  
-apt-get install graphicsmagick  
-apt-get install graphicsmagick-imagemagick-compat
-apt-get install tree
+sudo ./deb_package_install.sh
 
 npm install
 
